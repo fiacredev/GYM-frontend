@@ -129,7 +129,7 @@ function App() {
             </div>
           </nav>
 
-          {/* spacer to avod content jump when nav becmes fixed */}
+          {/* spacer to avouid content jump when actually nav become fixed  */}
           
           {navSticky && <div className="h-20" />}
 
