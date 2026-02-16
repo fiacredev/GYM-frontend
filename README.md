@@ -1,4 +1,4 @@
-A work-in-progress React frontend for a gym management and fitness tracking application. This project aims to provide a modern, responsive, and user-friendly interface where users can:
+A work-in-progress React frontend for a gym management and fitness tracking application. This project aims to provide a modern, responsive, and user-friendly interface. where users can:
 
 Browse workout routines and exercise plans
 
