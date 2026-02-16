@@ -14,9 +14,9 @@ function App() {
       const handleScroll = () => {
         const y = window.scrollY || window.pageYOffset;
         if (y > 50) {
-          // user scrolled down — start or restart the delay
+          // user scrolled down ......... start or restart the delay
           if (timer) clearTimeout(timer);
-          timer = setTimeout(() => setNavSticky(true), 2); // becomes fixed after 1.5s
+          timer = setTimeout(() => setNavSticky(true), 2); // becomes fixed aftr 1.5s
         } else {
           // near top — cancel and reset
           if (timer) {
@@ -40,18 +40,18 @@ function App() {
           style={{ backgroundImage: `url(${gym})` }}
           className="bg-cover bg-center min-h-screen relative"
         >
-          {/* translucent overlay for better contrast */}
+      {/* translucnt overlay for better contrst */}
           <div className="absolute inset-0 bg-black/50" />
 
-          <nav
+      <nav
             className={`relative z-10 ${navSticky ? 'sticky top-0 left-0 w-full bg-blue-500 transparent' : ''
               }`}
           >
             {/* bg-black/20 backdrop-blur-sm shadow-md transition-all duration-300 */}
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex items-center justify-between h-20">
-                <div className="flex items-center">
-                  <h3 className="text-white text-4xl font-extrabold tracking-wider">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between h-20">
+              <div className="flex items-center">
+                 <h3 className="text-white text-4xl font-extrabold tracking-wider">
                     GYM
                   </h3>
                 </div>
@@ -129,7 +129,7 @@ function App() {
             </div>
           </nav>
 
-          {/* spacer to avoid content jump when nav becomes fixed */}
+          {/* spacer to avod content jump when nav becmes fixed */}
           
           {navSticky && <div className="h-20" />}
 
@@ -172,7 +172,7 @@ function App() {
        
 
 
-       {/* section about our services */}
+       {/* section about our section deal with services */}
         
 
         <div className='text-center py-20 space-y-6'>
